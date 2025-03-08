@@ -45,8 +45,6 @@ export function renderGallery(images) {
 
 export function showLoader() {
   loader.classList.remove('hidden');
-  loader.innerHTML =
-    '<p class="loader-text">Loading images, please wait...</p>';
 }
 
 export function hideLoader() {
